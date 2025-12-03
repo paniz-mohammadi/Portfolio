@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/bootstrap-icons.css" />
+    
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Grid Layout Portfolio Project</title>
+</head>
+
+<body>
+    <nav id="nav" class="nav">
+        <div class="nav-center">
+            <div class="nav-header">
+                <h3>My Portfolio</h3>
+                <button id="nav-btn" class="nav-btn">
+                    <i class="bi bi-list-nested"></i>
+                </button>
+            </div>
+
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">Homepage</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <!-- <li>
+                    <a href="#services">Services</a>
+                </li> -->
+                <li>
+                    <a href="#portfolios">Projects</a>
+                </li>
+                <li>
+                    <a href="#essays">Blogs</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <aside id="sidebar" class="sidebar">
+        <div>
+            <button id="close-btn">
+                <i class="bi bi-x"></i>
+            </button>
+
+            <ul class="sidebar-links">
+                <li>
+                    <a class="nav-link scroll-link" href="#home">Homepage</a>
+                </li>
+                <li>
+                    <a class="nav-link scroll-link" href="#about">About Me</a>
+                </li>
+                <li>
+                    <a class="nav-link scroll-link" href="#portfolios">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-link scroll-link" href="#essays">Essays</a>
+                </li>
+            </ul>
+
+            <ul class="social-icons">
+                <li>
+                    <a href="https://github.com/paniz-mohammadi" class="social-icon">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/paniz-mo43" class="social-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mhpaniz1382@gmail.com" class="social-icon">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://t.me/Mohammadipaniz" class="social-icon">
+                        <i class="bi bi-telegram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <header class="hero">
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="bi bi-moon"></i>
+        </button>
+        <div class="section-center hero-center" id="home">
+           <article class="hero-info">
+               <div class="underline"></div>
+               <h2>Frontend Developer</h2>
+               <h4>Hi, I'm Paniz.👋<br />
+                   a passionate Junior Frontend Developer.
+               </h4>
+               <a href="#portfolios" class="btn hero-btn">Explore My Work</a>
+               <div class="contact-icons-wrapper" id="contact-icons">
+                <ul class="social-icons hero-icons">
+                    <li>
+                        <a href="https://github.com/paniz-mohammadi" class="social-icon">
+                            <i class="bi bi-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/paniz-mo43" class="social-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mhpaniz1382@gmail.com" class="social-icon">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/Mohammadipaniz" class="social-icon">
+                            <i class="bi bi-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+                </div>        
+            </article> 
+
+            <article class="hero-img">
+                <img class="hero-photo" src="./images/landpage-img.jpg" alt="hero-img">
+            </article>
+        </div>
+    </header>
+
+    <section class="section" id="about">
+        <div class="section-center about-center">
+            <article class="about-img">
+                <img class="about-photo" src="./images/about-img.jpg" alt="">
+            </article>
+            <article class="about-info">
+                <div class="about-title">
+                    <h2>About me</h2>
+                    <div class="underline"></div>
+                </div>
+                <p>
+                    I’m a Passionate Computer Science student with a strong international
+                    academic background and hands-on experience in software development and
+                    problem-solving skills. I also enjoy participating in brainstorms and developing
+                    projects.
+                </p>
+                <p>
+                    My Motto is: No flowers blooms without the rain. ( keine Blume blüht ohne Regen. )<br>
+                    And you,  what motivates you?
+                </p>
+
+                <a href="https://drive.google.com/file/d/1fwpXRT1HTtPLj1nOgk2EDMEfAPkYZyN3/view?usp=drive_link" class="btn"> <i class="bi bi-download"></i> Download My Resume</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="section bg-grey" id="services"> 
+        <div class="section-title">
+            <h2>Services</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="section-center services-center">
+            <article class="service">
+                <h4>Frontend Development</h4>
+                <div class="underline"></div>
+                <p>
+                    Building responsive, clean, and user-friendly interfaces using HTML, CSS, JavaScript, SASS, Bootstrap, and React.js.
+                </p>
+            </article>
+
+            <article class="service">
+                <h4>UI/UX Design</h4>
+                <div class="underline"></div>
+                <p>
+                    Creating intuitive user experiences through wireframes, prototypes, and visual design using Figma and Adobe XD.
+                </p>
+            </article>
+
+            <article class="service">
+                <h4>Software Development</h4>
+                <div class="underline"></div>
+                <p>
+                    Developing practical applications, and academic tools using C, C++, Java, and APIs, with strong knowledge of UML, OOP concepts, and software architecture principles.                
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section class="section projects" id="portfolios">
+        <div class="section-title">
+            <h2>Projects</h2>
+            <div class="underline"></div>
+            <p class="projects-text">
+                Here is a collection of my favorite projects, from web applications, dashboards and UI prototypes. 
+                Each project reflects my growth as a developer and my interest in building more user-friendly applications.
+            </p>
+        </div>
+
+        <div class="section-center projects-center">
+            <a href="https://realtime-jsweatherapp.netlify.app" class="project-1">
+                <article class="project">
+                    <img class="project-img" src="./images/weatherApp.jpg" alt="project-img">
+                    <div class="project-info">
+                        <h4>Weather app</h4>
+                        <p>a Real time Weather app using JS</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="https://www.figma.com/design/9WGYShAL35cMW6xhYYDvqF/book3ell?node-id=0-1&t=QIsauKNpzesZGmNB-1" class="project-2">
+                <article class="project">
+                    <img class="project-img" src="./images/Book3ell.jpg" alt="project-img">
+                    <div class="project-info">
+                        <h4>Book3ell</h4>
+                        <p>Prototype with Figma</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="https://realtime-todoapp.netlify.app" class="project-3">
+                <article class="project">
+                    <img class="project-img" src="./images/todoApp.jpg" alt="project-img">
+                    <div class="project-info">
+                        <h4>TodoApp</h4>
+                        <p>a Realtime Todolist App</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="https://peppy-kelpie-a88635.netlify.app" class="project-4">
+                <article class="project">
+                    <img class="project-img" src="./images/OliviaStore.jpg" alt="project-img">
+                    <div class="project-info">
+                        <h4>OliviaStore</h4>
+                        <p>Online-Shop with API-Integration</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="#" class="project-5">
+                <article class="project">
+                    <img class="project-img" src="./images/Charts.png" alt="project-img">
+                    <div class="project-info">
+                        <h4>Dashboard</h4>
+                        <p>Charts and cool features using Syncfusion React .js</p>
+                    </div>
+                </article>
+            </a>
+
+            <a href="#" class="project-6">
+                <article class="project">
+                    <img class="project-img" src="./images/Dashboard-orders.jpg" alt="project-img">
+                    <div class="project-info">
+                        <h4>Dashboard</h4>
+                        <p>dashboard with React.js</p>
+                    </div>
+                </article>
+            </a>       
+
+        </div>
+        
+    </section>
+
+    <section class="contact">
+        <video class="video-container" autoplay muted loop poster="./images/img-2.jpg">
+            <source src="./videos/connect.mp4" type="video/mp4">
+            Something went wrong!    
+        </video>
+
+        <div class="video-banner">
+            <div class="section-title">
+                <h2>Let’s connect!</h2>
+                <div class="underline"></div>
+            </div>
+
+            <p class="video-text">
+                Whether you’re interested in collaborating, discussing an opportunity, or exploring my projects, feel free to reach out.  
+                I’m always open to new challenges, internships, and development opportunities.
+            </p>
+
+            <a href="#contact-icons" class="btn">contact Me</a>
+        </div>
+    </section>
+
+    <section class="section-skills">
+        <div class="section-title">
+            <h2>Skills</h2>
+            <div class="underline"></div>
+        </div>
+
+        <section class="section-center skills-center">
+            <article>
+                <h3>Front-End</h3>
+                <div class="skill">
+                    <p>HTML/CSS</p>
+                    <div class="skill-container">
+                        <div class="skill-value value-93"></div>
+                        <p class="skill-text skill-text-93">93%</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Javascript</p>
+                    <div class="skill-container">
+                        <div class="skill-value value-90"></div>
+                        <p class="skill-text skill-text-90">90%</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>React.js</p>
+                    <div class="skill-container">
+                        <div class="skill-value value-50"></div>
+                        <p class="skill-text skill-text-50">50%</p>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <h3>Back-End</h3>
+                <div class="skill">
+                    <p>C</p>
+                    <div class="skill-container">
+                        <div class="skill-value value-99"></div>
+                        <p class="skill-text skill-text-99">99%</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>C++</p>
+                    <div class="skill-container">
+                        <div class="skill-value value-87"></div>
+                        <p class="skill-text skill-text-87">87%</p>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Java</p>
+                    <div class="skill-container">
+                        <div class="skill-value value-99"></div>
+                        <p class="skill-text skill-text-99">99%</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+
+    <section class="section-timeline">
+        <div class="section-title">
+            <h2>Timeline Career</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="section-center timeline-center">
+            <article class="timeline-item">
+                <h4>2025-2026, Start of Studies in Vienna</h4>
+                <p>
+                    Start my journy into the Computer Science at the University of Vienna.
+                </p>
+                <span class="number">1</span>
+            </article>
+
+            <article class="timeline-item">
+                <h4>2024-2025, Erasmus+ Scholarship</h4>
+                <p>
+                    Selected for the Erasmus+ exchange semester at Thomas More University of Applied Sciences in Belgium.
+                </p>
+                <span class="number">2</span>
+            </article>
+
+            <article class="timeline-item">
+                <h4>2023-2024, Teacher assistant and IoT member</h4>
+                <p>
+                    Organized workshops, study groups, and student events at the University of Kurdistan.
+                </p>
+                <span class="number">3</span>
+            </article>
+
+            <article class="timeline-item">
+                <h4>2023, front-end internship</h4>
+                <p>
+                    Worked as a Junior Frontend intern, contributing to real projects and learning team-based workflows.
+                </p>
+                <span class="number">4</span>
+            </article>
+
+            <article class="timeline-item">
+                <h4>2021, Algorithm Achievement</h4>
+                <p>
+                    Won 1st place in ICPC Algorithm regional competition.
+                </p>
+                <span class="number">5</span>
+            </article> 
+            
+            <article class="timeline-item">
+                <h4>2014, Chess Achievement</h4>
+                <p>
+                    Won 1st place in national chess competition.
+                </p>
+                <span class="number">6</span>
+            </article>   
+        </div>
+    </section>
+
+    <section class="section-blog" id="essays">
+        <div class="section-title">
+            <h2>Blogs</h2>
+            <div class="underline"></div>
+        </div>
+
+        <div class="section-center blog-center">
+            <article class="card">
+                <div class="card-side card-front">
+                    <!-- Front Card -->
+                    <img src="./images/img-1.jpg" alt="">
+                    <div class="card-info">
+                        <h4>How I Started Coding</h4>
+                        <p>
+                            A short story about my journey into software development and what inspires me as a programmer
+                        </p>
+                        <div class="card-footer">
+                            <img src="./images/hero-img.jpg" alt="author-img">
+                            <p>4 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-side card-back">
+                    <!-- Back Card -->
+                    <button class="btn">Read more...</button>
+                </div>     
+            </article>
+
+            <article class="card">
+                <div class="card-side card-front">
+                    <!-- Front Card -->
+                    <img src="./images/img-2.jpg" alt="">
+                    <div class="card-info">
+                        <h4>Building My First React Project</h4>
+                        <p>
+                            Sharing the challenges, lessons, and ideas behind creating my first React-based dashboard application
+                        </p>
+                        <div class="card-footer">
+                            <img src="./images/hero-img.jpg" alt="author-img">
+                            <p>5 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-side card-back">
+                    <!-- Back Card -->
+                    <button class="btn">Read more...</button>
+                </div>     
+            </article>
+
+            <article class="card">
+                <div class="card-side card-front">
+                    <!-- Front Card -->
+                    <img src="./images/img-3.jpg" alt="">
+                    <div class="card-info">
+                        <h4>How to build more attractive UI Websites?</h4>
+                        <p>
+                            To build more attractive UI websites, focus on clean layouts, consistent spacing, and modern design principles.<br/>
+                            Combine thoughtful color palettes, readable typography, and subtle animations to create interfaces that feel engaging.
+                        </p>
+                        <div class="card-footer">
+                            <img src="./images/hero-img.jpg" alt="author-img">
+                            <p>8 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-side card-back">
+                    <!-- Back Card -->
+                    <button class="btn">Read more...</button>
+                </div>     
+            </article>
+
+            <article class="card" id="last-card">
+                <div class="card-side card-front">
+                    <!-- Front Card -->
+                    <img src="./images/img-4.jpg" alt="">
+                    <div class="card-info">
+                        <h4>Front-end or Back-end development?</h4>
+                        <p>
+                            Front-end focuses on what users see and interact with the design, layout, and user experience of a website or app. <br>
+                            Back-end deals with the logic behind the scenes, servers, databases, APIs, and everything that makes the front-end work smoothly.
+                        </p>
+                        <div class="card-footer">
+                            <img src="./images/hero-img.jpg" alt="author-img">
+                            <p>12 Minutes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-side card-back">
+                    <!-- Back Card -->
+                    <button class="btn">Read more</button>
+                </div>     
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul class="social-icons">
+            <li>
+                <a href="https://github.com/paniz-mohammadi" class="social-icon">
+                    <i class="bi bi-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/paniz-mo43" class="social-icon">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://mhpaniz1382@gmail.com" class="social-icon">
+                    <i class="bi bi-envelope"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="social-icon">
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+
+        
+    </footer>
+
+    <script src="./js/script.js" defer></script>
+</body>
+</html>
