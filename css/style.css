@@ -804,6 +804,11 @@ p
 
 /*====== Skills ======*/
 
+.section-skills
+{
+    padding-bottom: 60px;
+}
+
 .section-skills .underline
 {
     width: 70px;
