@@ -817,14 +817,14 @@ p
     background: #ffffff;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    border-top: 4px solid #3b82f6;
+    box-shadow: 0 4px 6px var(--clr-primary-1);
+    border-top: 4px solid var(--clr-primary-2);
     text-align: left;
 }
 
 .skill-category h3 {
     font-size: 1.2rem;
-    color: #374151;
+    color: var(--clr-primary-1);
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -836,20 +836,19 @@ p
 }
 
 .skill-tag {
-    background-color: #eff6ff;
-    color: #1e40af;
+    background-color: var(--clr-primary-4);
+    color: var(--clr-primary-2);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.85rem;
     font-weight: 500;
 }
 
-.section-skills
-{
+.section-skills {
     padding-bottom: 60px;
 }
 
-.section-skills .underline
+/*.section-skills .underline
 {
     width: 170px;
 } 
@@ -947,6 +946,7 @@ p
 .skill-text-99 {
     left: 99%;
 }
+*/
 
 @media screen and (min-width: 768px)
 {
