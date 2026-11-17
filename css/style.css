@@ -366,7 +366,7 @@ p
     -moz-column-gap: 2rem;
          column-gap: 2rem;
     margin-top: 3rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 
 .social-icon 
@@ -563,7 +563,7 @@ p
 
 .service .underline
 {
-    width: 13rem;
+    width: 8rem;
     height: 0.12rem;
     transition: var(--transition);
 }
@@ -571,6 +571,10 @@ p
 .service:hover .underline
 {
     background: var(--clr-white);
+}
+
+#services .underline{
+    width: 10rem;
 }
 
 @media screen and (min-width: 676px)
@@ -851,6 +855,10 @@ p
 
 .section-skills {
     padding-bottom: 60px;
+}
+
+.section-skills .section-title .underline{
+    width: 12rem;
 }
 
 /*.section-skills .underline
